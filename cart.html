@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" />
+
+    <!-- Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Киселев&Тетерин</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__hamburger">
+                        <svg>
+                            <use xlink:href="./images/sprite.svg#icon-menu"></use>
+                        </svg>
+                    </div>
+
+                    <div class="nav__logo">
+                        <a href="index.html" class="scroll-link">
+                            Киселев&Тетерин
+                        </a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">Киселев&Тетерин</span>
+                            <a href="#" class="close__toggle">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Домой</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="page__title-area">
+            <div class="container">
+                <div class="page__title-container">
+                    <ul class="page__titles">
+                        <li>
+                            <a href="index.html">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-home"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page__title">Корзина</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section cart__area">
+            <div class="container">
+                <div class="responsive__cart-area">
+                    <form class="cart__form">
+                        <div class="cart__table table-responsive">
+                            <table width="100%" class="table">
+                                <thead>
+                                    <tr>
+                                        <th>ПРОДУКТ</th>
+                                        <th>ИМЯ</th>
+                                        <th>ЦЕНА</th>
+                                        <th>ИТОГ</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            <a href="#">
+                                                <img src="./images/products/iPhone/iphone6.jpeg" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Apple iPhone 12</a>
+                                            <br><br>
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">49.000р</span>
+                                            </div>
+                                        </td>
+
+                                        <td class="product__subtotal">
+                                            <div class="price">
+                                                <span class="new__price">49.000р</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            <a href="#">
+                                                <img src="./images/products/iPhone/iphone5.jpeg" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Apple iPhone 11</a>
+                                            <br><br>
+
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">40.000р</span>
+                                            </div>
+                                        </td>
+
+                                        <td class="product__subtotal">
+                                            <div class="price">
+                                                <span class="new__price">40.000р</span>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            <a href="#">
+                                                <img src="./images/products/iPhone/iphone1.jpeg" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Apple iPhone XR</a>
+                                            <br><br>
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">27.000р</span>
+                                            </div>
+                                        </td>
+
+                                        <td class="product__subtotal">
+                                            <div class="price">
+                                                <span class="new__price">27.000р</span>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product__thumbnail">
+                                            <a href="#">
+                                                <img src="../images/collection_01.png" alt="">
+                                            </a>
+                                        </td>
+                                        <td class="product__name">
+                                            <a href="#">Apple iPhone 10</a>
+                                            <br><br>
+
+                                        </td>
+                                        <td class="product__price">
+                                            <div class="price">
+                                                <span class="new__price">22.000р</span>
+                                            </div>
+                                        </td>
+
+                                        <td class="product__subtotal">
+                                            <div class="price">
+                                                <span class="new__price">22.000р</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="cart-btns">
+                            <div class="continue__shopping">
+                                <a href="form.html">Заказать</a>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facility Section -->
+
+    </main>
+
+    <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer-top__box">
+          <h3>Контакты </h3>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+            Антона Валека 13, Екатеринбург, Россия
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span>
+            okunev@gmail.com
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            +7 912 275 28 05
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+              </svg>
+            </span>
+            @Trapatutu
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+
+      </div>
+      <div class="footer-bottom__box">
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+    <a href="#header" class="goto-top scroll-link">
+        <svg>
+            <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+        </svg>
+    </a>
+
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./js/products.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>

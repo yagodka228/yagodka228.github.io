@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Киселев&Тетерин</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__hamburger">
+            <svg>
+              <use xlink:href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+          </div>
+
+          <div class="nav__logo">
+            <a href="/" class="scroll-link">
+              Киселев&Тетерин
+            </a>
+          </div>
+
+          <div class="nav__menu">
+            <div class="menu__top">
+              <span class="nav__category">Киселев&Тетерин</span>
+              <a href="#" class="close__toggle">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                </svg>
+              </a>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link">Домой</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="cart.html" class="icon__item">
+              <svg class="icon__cart">
+                <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
+              </svg>
+              <span id="cart__total">+</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="page__title-area">
+      <div class="container">
+        <div class="page__title-container">
+          <ul class="page__titles">
+            <li>
+              <a href="/">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-home"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page__title">iPhone 11</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <section class="section product-details__section">
+        <div class="product-detail__container">
+          <div class="product-detail__left">
+            <div class="details__container--left">
+              <div class="product__pictures">
+                <div class="pictures__container">
+                  <img class="picture" src="./images/products/iPhone/iphone5.jpeg" id="pic5" />
+                </div>
+                <div class="pictures__container">
+                  <img class="picture" src="./images/products/iPhone/iphone2.jpeg" id="pic2" />
+                </div>
+                <div class="pictures__container">
+                  <img class="picture" src="./images/products/iPhone/iphone3.jpeg" id="pic3" />
+                </div>
+                <div class="pictures__container">
+                  <img class="picture" src="./images/products/iPhone/iphone4.jpeg" id="pic4" />
+                </div>
+                <div class="pictures__container">
+                  <img class="picture" src="./images/products/iPhone/iphone1.jpeg" id="pic1" />
+                </div>
+              </div>
+              <div class="product__picture" id="product__picture">
+                <div class="picture__container">
+                  <a href="./images/products/iPhone/iphone5.jpeg" target="_blank"><img src="./images/products/iPhone/iphone5.jpeg" id="pic" /></a>
+                </div>
+              </div>
+              <div class="zoom" id="zoom"></div>
+            </div>
+
+            <div class="product-details__btn">
+              <a class="add" href="cart.html">
+                <span>
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#icon-cart-plus"></use>
+                  </svg>
+                </span>
+                Перейти к оформлению</a>
+            </div>
+          </div>
+
+          <div class="product-detail__right">
+            <div class="product-detail__content">
+              <h3>Apple iPhone 11</h3>
+              <div class="price">
+                <span class="new__price">40.000р</span>
+              </div>
+
+              <p>
+                Новый iPhone 11 позволяет делать фотоснимки с широким и сверхшироким углом обзора. Обновлённый интерфейс и новая сверхширокоугольная камера позволят увидеть и снять то, что происходит за пределами кадра. Снимать и редактировать видеоролики теперь так же легко, как фотографии.
+                Это по-прежнему невероятно популярная камера, но с совершенно новыми перспективами.
+              </p>
+
+
+                </div>
+          </div>
+        </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/products.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+
+</html>
